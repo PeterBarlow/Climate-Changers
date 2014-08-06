@@ -1,9 +1,77 @@
-h1 {
+
+#wrapper {
+	width: 1660px;
+
+}
+
+h1 { 
+
   color: teal;
-  font-family: "Century Gothic", arial, sans-serif;
+  font-family: "Linux Biolinum G", arial, sans-serif;
+  font-size: 4em;
+  padding-left: 2em;
+  margin-bottom: -10px;
 }
  
 h1 span {
-  color: black;
+  color: #818181;
   font-size: .6em;
+}
+
+h2 {
+  color: #818181;
+  font-size: 20px;
+  text-align: right;
+  margin-right:380px;
+  font-family: "DejaVu Sans", arial, sans-serif;
+  }
+
+#navbar {
+	padding-left:200px;
+}
+
+nav li{
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 25px;
+	color: #818181;
+	width: 1660px;
+	display: inline;
+	list-style-type: none;
+	padding-right: 100px;
+}
+
+a:link {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 25px;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 25px;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+a:active {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 25px;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+	}
+
+a.hover {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 25px;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#pics {
+	margin-left: 200px;
 }
