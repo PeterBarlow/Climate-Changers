@@ -3,7 +3,9 @@
 	border: 3px solid #cccccc;
 	margin-right: 15%;
 	margin-left: 15%;
-	
+	background-image: url(Images/halftone.png);
+	background-repeat: repeat;
+	background-position: center top;
 }
 
 h1 { 
