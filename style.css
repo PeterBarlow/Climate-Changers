@@ -13,7 +13,7 @@ h1 {
   color: teal;
   font-family: "Linux Biolinum G", arial, sans-serif;
   font-size: 6em;
-
+  margin-top: 0;
   margin-bottom: -10px;
   text-align: center;
 }
@@ -69,14 +69,21 @@ a:active {
 	text-decoration: none;
 	}
 
-a.hover {
+a:hover {
 	font-family: "Linux Biolinum G", arial, sans-serif;
 	font-size:1.5em;
-	color: #818181;
+	color: #ff6840;
 	width: 1660px;
 	text-decoration: none;
 }
 
 #pics {
 	text-align: center;
+}
+
+#footer {
+	color: #818181;
+  font-size: 20px;
+  text-align: center;
+  font-family: "DejaVu Sans", arial, sans-serif;
 }
