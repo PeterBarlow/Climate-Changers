@@ -6,6 +6,8 @@
 	background-image: url(Images/halftone.png);
 	background-repeat: repeat;
 	background-position: center top;
+	box-shadow: -4px 0px 8px #000000,
+				6px 0px 10px #000000;
 }
 
 h1 { 
@@ -14,7 +16,7 @@ h1 {
   font-family: "Linux Biolinum G", arial, sans-serif;
   font-size: 6em;
   margin-top: 0;
-  margin-bottom: -10px;
+  margin-bottom: -.3em;
   text-align: center;
 }
  
@@ -23,10 +25,17 @@ h1 span {
   font-size: .6em;
 }
 
+#slogan {
+	padding-left: 2em;
+	font-size: 1.5em;
+	font-family: "dejaVu Sans", arial, sans-serif;
+	font-style: italic;
+}
+
 h2 {
   color: #818181;
   font-size: 20px;
-  text-align: center;
+  text-align: right;
   font-family: "DejaVu Sans", arial, sans-serif;
   }
 
