@@ -54,7 +54,7 @@ nav li{
 	text-align: center;
 }
 
-a:link {
+#navbar a:link {
 	font-family: "Linux Biolinum G", arial, sans-serif;
 	font-size:1.5em;
 	color: #818181;
@@ -62,7 +62,7 @@ a:link {
 	text-decoration: none;
 }
 
-a:visited {
+#navbar a:visited {
 	font-family: "Linux Biolinum G", arial, sans-serif;
 	font-size:1.5em;
 	color: #818181;
@@ -70,7 +70,7 @@ a:visited {
 	text-decoration: none;
 }
 
-a:active {
+#navbar a:active {
 	font-family: "Linux Biolinum G", arial, sans-serif;
 	font-size:1.5em;
 	color: #818181;
@@ -78,7 +78,7 @@ a:active {
 	text-decoration: none;
 	}
 
-a:hover {
+#navbar a:hover {
 	font-family: "Linux Biolinum G", arial, sans-serif;
 	font-size:1.5em;
 	color: #ff6840;
@@ -96,3 +96,46 @@ a:hover {
   text-align: center;
   font-family: "DejaVu Sans", arial, sans-serif;
 }
+
+#paragraph {
+	border: 3px solid #cccccc;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.4em;
+	background-color: white;
+}
+
+#paragraph ul {
+	font-size: 1.2em;
+}
+
+.emphasis {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 3em;
+	color: #03899c;
+}
+
+.referance {border: 3px solid #cccccc;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 2%;
+			padding-right: 2%;
+			padding-left: 2%;
+			font-family: "Linux Biolinum G", arial, sans-serif;
+			font-size: 1.4em;
+			background-color: white;
+		}
+
+.referance a {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	color: black;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+
