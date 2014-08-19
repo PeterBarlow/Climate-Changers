@@ -14,10 +14,11 @@ h1 {
 
   color: teal;
   font-family: "Linux Biolinum G", arial, sans-serif;
-  font-size: 6em;
+  font-size: 4em;
   margin-top: 0;
   margin-bottom: -.3em;
-  text-align: center;
+  padding-left: 1em;
+  text-align: left;
 }
  
 h1 span {
@@ -26,8 +27,8 @@ h1 span {
 }
 
 #slogan {
-	padding-left: 2em;
-	font-size: 1.5em;
+	padding-left: 3em;
+	font-size: 1.2em;
 	font-family: "dejaVu Sans", arial, sans-serif;
 	font-style: italic;
 }
@@ -37,7 +38,12 @@ h2 {
   font-size: 20px;
   text-align: right;
   font-family: "DejaVu Sans", arial, sans-serif;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: white;
   }
+
 
 #navbar {
 		text-align: center;
@@ -137,5 +143,15 @@ nav li{
 	font-style: italic;
 }
 
-
-
+#wss {
+	
+	text-align: center;
+	border: 3px solid #818181;
+	background-color: white;
+	margin-left: 10em;
+	margin-right: 10em;
+	padding-top: 5px; 
+	opacity: 0;
+	-webkit-transition:opacity 1.0s linear 0s;
+	transition:opacity 1.0s linear 0s;
+}
