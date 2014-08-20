@@ -1,4 +1,8 @@
 
+html {
+    overflow-y: scroll;
+}
+
 #wrapper {
 	border: 3px solid #cccccc;
 	margin-right: 15%;
@@ -93,8 +97,15 @@ nav li{
 }
 
 #pics {
+	height: 404px;
+	width: 804px;
+	margin-right: 10em;
+	margin-left: 10em;
 	text-align: center;
-}
+	background-color: white;
+	border: 3px solid #818181;
+	padding: 4px 4px 4px 4px;
+	}
 
 #footer {
 	color: #818181;
@@ -144,13 +155,14 @@ nav li{
 }
 
 #wss {
-	
+	width: 800px;
+	height: 466px;
 	text-align: center;
 	border: 3px solid #818181;
 	background-color: white;
 	margin-left: 10em;
 	margin-right: 10em;
-	padding-top: 5px; 
+	padding: 4px 4px 4px 4px;
 	opacity: 0;
 	-webkit-transition:opacity 1.0s linear 0s;
 	transition:opacity 1.0s linear 0s;
