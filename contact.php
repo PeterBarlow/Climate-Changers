@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
@@ -28,7 +28,7 @@
 			</nav>
 		</div>
 		 <section class="body">
-    	<form method="post" action="index.php">
+    	<form method="post" action="contact.php">
         
     <label>Name</label>
     <input name="name" placeholder="Type Here">
@@ -67,12 +67,12 @@
 				
     if ($_POST['submit'] && $human == '4') {				 
         if (mail ($to, $subject, $body, $from)) { 
-	    echo '<p>Your message has been sent!</p>';
+	    echo '<p class="Message">Thanks! Your message has been sent.</p>';
 	} else { 
-	    echo '<p>Something went wrong, go back and try again!</p>'; 
+	    echo '<p class="Message">Something went wrong, go back and try again!</p>'; 
 	} 
     } else if ($_POST['submit'] && $human != '4') {
-	echo '<p>You answered the anti-spam question incorrectly!</p>';
+	echo '<p class="Message">You answered the anti-spam question incorrectly!</p>';
     }
 ?>
 

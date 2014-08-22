@@ -218,11 +218,23 @@ input:focus, textarea:focus {
     border:none;
     margin-top:20px;
     cursor:pointer;
+    margin: 0 auto;
+
+  	
 }
 
 	#submit:hover {
 	    opacity:.9;
 	}
 
-
-
+.Message {
+	vertical-align: center;
+  	margin-right: 1em;
+  	margin-left: 1em;
+	font-size: 3em;
+	border: solid 3px 3px 3px 3px #818181;
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	
+}
