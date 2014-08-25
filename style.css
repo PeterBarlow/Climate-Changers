@@ -3,10 +3,19 @@ html {
     overflow-y: scroll;
 }
 
+#background {
+	background-color: #818181;
+	background-position: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
 #wrapper {
+
 	border: 3px solid #cccccc;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: 05%;
+	margin-left: 05%;
+	margin-top: 01%;
 	background-image: url(Images/halftone.png);
 	background-repeat: repeat;
 	background-position: center top;
@@ -23,6 +32,16 @@ h1 {
   margin-bottom: -.3em;
   padding-left: 1em;
   text-align: left;
+  background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+
 }
  
 h1 span {
@@ -31,10 +50,20 @@ h1 span {
 }
 
 #slogan {
+	padding-bottom: 1em;
 	padding-left: 3em;
 	font-size: 1.2em;
 	font-family: "dejaVu Sans", arial, sans-serif;
 	font-style: italic;
+	background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
 }
 
 h2 {
@@ -43,14 +72,18 @@ h2 {
   text-align: right;
   font-family: "DejaVu Sans", arial, sans-serif;
   padding: 10px 10px 10px 10px;
-  border: 2px solid;
-  border-radius: 10px;
+  margin-top: -1em;
+  border: 1px solid;
   background-color: white;
-  }
-
+}
 
 #navbar {
 		text-align: center;
+		  border-left: 1px solid #818181;
+		  border-right:  1px solid #818181;
+		  border-bottom: 1px solid #818181;
+		  margin-top: -1em;
+		  padding-top: .5em;
 }
 
 nav li{
@@ -99,12 +132,13 @@ nav li{
 #pics {
 	height: 404px;
 	width: 804px;
-	margin-right: 10em;
-	margin-left: 10em;
-	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
 	background-color: white;
 	border: 3px solid #818181;
 	padding: 4px 4px 4px 4px;
+
 	}
 
 #footer {
@@ -160,8 +194,9 @@ nav li{
 	text-align: center;
 	border: 3px solid #818181;
 	background-color: white;
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 4px 4px 4px 4px;
 	opacity: 0;
 	-webkit-transition:opacity 1.0s linear 0s;
@@ -177,8 +212,26 @@ label {
 /* Centre the page */
 .body {
     display:block;
-    margin:0 auto;
+    margin: 0 auto;
     width:576px;
+    border-radius: 5px;
+    border-left: 1px solid #818181;
+    border-right: 1px solid #818181;
+    border-bottom: 1px solid #818181;
+    border-top: 1px solid #818181;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+    
 }
 
 /* Centre the form within the page */
@@ -200,6 +253,17 @@ input, textarea {
 	 -moz-border-radius:5px;
     -webkit-border-radius:5px;
     border-radius:5px;
+    font-family: "Linux Biolinum G", arial, sans-serif;
+
+}
+
+form span {
+ 	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:2em;
+	text-align: ;
+	padding-left: auto;
+	padding-right: auto;
+	width: 495px;
 }
 
 textarea {
@@ -218,7 +282,9 @@ input:focus, textarea:focus {
     border:none;
     margin-top:20px;
     cursor:pointer;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto
+    text-align: center;
 
   	
 }
@@ -228,13 +294,1704 @@ input:focus, textarea:focus {
 	}
 
 .Message {
-	vertical-align: center;
-  	margin-right: 1em;
-  	margin-left: 1em;
+
+  	
 	font-size: 3em;
-	border: solid 3px 3px 3px 3px #818181;
+	color: #818181;
+	border: 3px 3px 3px 3px solid white;
 	border-radius: 5px;
-	background-color: white;
+	background-color: #ccff99;
 	text-align: center;
+	position: fixed;
+  	top: 50%;
+  	left: 65%;
+  	width: 462px;
+  	margin-right: auto;
+  	margin-left: auto;
 	
 }
+
+label {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive: Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+
+html {
+    overflow-y: scroll;
+}
+
+#background {
+	background-color: #818181;
+	background-position: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#wrapper {
+
+	border: 3px solid #cccccc;
+	margin-right: 05%;
+	margin-left: 05%;
+	margin-top: 01%;
+	background-image: url(Images/halftone.png);
+	background-repeat: repeat;
+	background-position: center top;
+	box-shadow: -4px 0px 8px #000000,
+				6px 0px 10px #000000;
+}
+
+h1 { 
+
+  color: teal;
+  font-family: "Linux Biolinum G", arial, sans-serif;
+  font-size: 6.5em;
+  margin-top: 0;
+  margin-bottom: -.3em;
+  padding-left: .25em;
+  text-align: left;
+  background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+
+}
+ 
+h1 span {
+  color: #818181;
+  font-size: .6em;
+}
+
+#slogan {
+	margin-top: 0px;
+	padding-top: 30px;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	font-size: 2.5em;
+	font-family: "dejaVu Sans", arial, sans-serif;
+	font-style: italic;
+	background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+}
+
+h2 {
+  color: #818181;
+  font-size: 20px;
+  text-align: right;
+  font-family: "DejaVu Sans", arial, sans-serif;
+  padding: 10px 10px 10px 10px;
+  margin-top: -2em;
+  border: 1px solid;
+  background-color: white;
+}
+
+#navbar {
+		text-align: center;
+		  border-left: 1px solid #818181;
+		  border-right:  1px solid #818181;
+		  border-bottom: 1px solid #818181;
+		  margin-top: -1em;
+		  padding-top: .5em;
+}
+
+nav li{
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 3em;
+	color: #818181;
+	width: 480px;
+	margin-right: auto;
+	margin-left:  auto;
+	display: block;
+	list-style-type: none;
+	text-align: center;
+}
+
+#navbar a:link {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:visited {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:active {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+	}
+
+#navbar a:hover {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #ff6840;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#pics {
+	height: 404px;
+	width: 804px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: white;
+	border: 3px solid #818181;
+	padding: 4px 4px 4px 4px;
+
+	}
+
+#footer {
+	color: #818181;
+  font-size: 20px;
+  text-align: center;
+  font-family: "DejaVu Sans", arial, sans-serif;
+}
+
+#paragraph {
+	border: 3px solid #cccccc;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.4em;
+	background-color: white;
+}
+
+#paragraph ul {
+	font-size: 1.2em;
+}
+
+.emphasis {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 3em;
+	color: #03899c;
+}
+
+.referance {border: 3px solid #cccccc;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 2%;
+			padding-right: 2%;
+			padding-left: 2%;
+			font-family: "Linux Biolinum G", arial, sans-serif;
+			font-size: 1.4em;
+			background-color: white;
+		}
+
+.referance a {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	color: black;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#wss {
+	width: 800px;
+	height: 466px;
+	text-align: center;
+	border: 3px solid #818181;
+	background-color: white;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px 4px 4px 4px;
+	opacity: 0;
+	-webkit-transition:opacity 1.0s linear 0s;
+	transition:opacity 1.0s linear 0s;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin: 0 auto;
+    width:576px;
+    border-radius: 5px;
+    border-left: 1px solid #818181;
+    border-right: 1px solid #818181;
+    border-bottom: 1px solid #818181;
+    border-top: 1px solid #818181;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+    
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	 -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-family: "Linux Biolinum G", arial, sans-serif;
+
+}
+
+form span {
+ 	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:2em;
+	text-align: ;
+	padding-left: auto;
+	padding-right: auto;
+	width: 495px;
+}
+
+textarea {
+	height:213px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    background:url(Images/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    margin-left: auto;
+    margin-right: auto
+    text-align: center;
+
+  	
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+.Message {
+
+  	
+	font-size: 3em;
+	color: #818181;
+	border: 3px 3px 3px 3px solid #818181;
+	border-radius: 5px;
+	background-color: #ccff99;
+	text-align: center;
+	position: fixed;
+  	top: 10%;
+  	left: 50%;
+  	width: 462px;
+  	margin-right: auto;
+  	margin-left: auto;
+	
+}
+
+label {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+	html {
+    overflow-y: scroll;
+}
+
+#background {
+	background-color: #818181;
+	background-position: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#wrapper {
+
+	border: 3px solid #cccccc;
+	margin-right: 05%;
+	margin-left: 05%;
+	margin-top: 01%;
+	background-image: url(Images/halftone.png);
+	background-repeat: repeat;
+	background-position: center top;
+	box-shadow: -4px 0px 8px #000000,
+				6px 0px 10px #000000;
+}
+
+h1 { 
+
+  color: teal;
+  font-family: "Linux Biolinum G", arial, sans-serif;
+  font-size: 6.5em;
+  margin-top: 0;
+  margin-bottom: -.3em;
+  padding-left: .25em;
+  text-align: left;
+  background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+
+}
+ 
+h1 span {
+  color: #818181;
+  font-size: .6em;
+}
+
+#slogan {
+	margin-top: 0px;
+	padding-top: 30px;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	font-size: 2.5em;
+	font-family: "dejaVu Sans", arial, sans-serif;
+	font-style: italic;
+	background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+}
+
+h2 {
+  color: #818181;
+  font-size: 20px;
+  text-align: right;
+  font-family: "DejaVu Sans", arial, sans-serif;
+  padding: 10px 10px 10px 10px;
+  margin-top: -2em;
+  border: 1px solid;
+  background-color: white;
+}
+
+#navbar {
+		text-align: center;
+		  border-left: 1px solid #818181;
+		  border-right:  1px solid #818181;
+		  border-bottom: 1px solid #818181;
+		  margin-top: -1em;
+		  padding-top: .5em;
+}
+
+nav li{
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 3em;
+	color: #818181;
+	width: 480px;
+	margin-right: auto;
+	margin-left:  auto;
+	display: block;
+	list-style-type: none;
+	text-align: center;
+}
+
+#navbar a:link {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:visited {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:active {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+	}
+
+#navbar a:hover {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #ff6840;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#pics {
+	height: 404px;
+	width: 804px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: white;
+	border: 3px solid #818181;
+	padding: 4px 4px 4px 4px;
+
+	}
+
+#footer {
+	color: #818181;
+  font-size: 20px;
+  text-align: center;
+  font-family: "DejaVu Sans", arial, sans-serif;
+}
+
+#paragraph {
+	border: 3px solid #cccccc;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.4em;
+	background-color: white;
+}
+
+#paragraph ul {
+	font-size: 1.2em;
+}
+
+.emphasis {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 3em;
+	color: #03899c;
+}
+
+.referance {border: 3px solid #cccccc;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 2%;
+			padding-right: 2%;
+			padding-left: 2%;
+			font-family: "Linux Biolinum G", arial, sans-serif;
+			font-size: 1.4em;
+			background-color: white;
+		}
+
+.referance a {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	color: black;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#wss {
+	width: 800px;
+	height: 466px;
+	text-align: center;
+	border: 3px solid #818181;
+	background-color: white;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px 4px 4px 4px;
+	opacity: 0;
+	-webkit-transition:opacity 1.0s linear 0s;
+	transition:opacity 1.0s linear 0s;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin: 0 auto;
+    width:576px;
+    border-radius: 5px;
+    border-left: 1px solid #818181;
+    border-right: 1px solid #818181;
+    border-bottom: 1px solid #818181;
+    border-top: 1px solid #818181;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+    
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	 -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-family: "Linux Biolinum G", arial, sans-serif;
+
+}
+
+form span {
+ 	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:2em;
+	text-align: ;
+	padding-left: auto;
+	padding-right: auto;
+	width: 495px;
+}
+
+textarea {
+	height:213px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    background:url(Images/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    margin-left: auto;
+    margin-right: auto
+    text-align: center;
+
+  	
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+.Message {
+
+  	
+	font-size: 3em;
+	color: #818181;
+	border: 3px 3px 3px 3px solid #818181;
+	border-radius: 5px;
+	background-color: #ccff99;
+	text-align: center;
+	position: fixed;
+  	top: 10%;
+  	left: 50%;
+  	width: 462px;
+  	margin-right: auto;
+  	margin-left: auto;
+	
+}
+
+label {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+html {
+    overflow-y: scroll;
+}
+
+#background {
+	background-color: #818181;
+	background-position: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#wrapper {
+
+	border: 3px solid #cccccc;
+	margin-right: 05%;
+	margin-left: 05%;
+	margin-top: 01%;
+	background-image: url(Images/halftone.png);
+	background-repeat: repeat;
+	background-position: center top;
+	box-shadow: -4px 0px 8px #000000,
+				6px 0px 10px #000000;
+}
+
+h1 { 
+
+  color: teal;
+  font-family: "Linux Biolinum G", arial, sans-serif;
+  font-size: 6.5em;
+  margin-top: 0;
+  margin-bottom: -.3em;
+  padding-left: .25em;
+  text-align: left;
+  background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+
+}
+ 
+h1 span {
+  color: #818181;
+  font-size: .6em;
+}
+
+#slogan {
+	margin-top: 0px;
+	padding-top: 30px;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	font-size: 2.5em;
+	font-family: "dejaVu Sans", arial, sans-serif;
+	font-style: italic;
+	background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+}
+
+h2 {
+  color: #818181;
+  font-size: 20px;
+  text-align: right;
+  font-family: "DejaVu Sans", arial, sans-serif;
+  padding: 10px 10px 10px 10px;
+  margin-top: -2em;
+  border: 1px solid;
+  background-color: white;
+}
+
+
+#navbar {
+		text-align: center;
+		  border-left: 1px solid #818181;
+		  border-right:  1px solid #818181;
+		  border-bottom: 1px solid #818181;
+		  margin-top: -1em;
+		  padding-top: .5em;
+}
+
+nav li{
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 3em;
+	color: #818181;
+	width: 480px;
+	margin-right: auto;
+	margin-left:  auto;
+	display: block;
+	list-style-type: none;
+	text-align: center;
+}
+
+#navbar a:link {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:visited {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:active {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+	}
+
+#navbar a:hover {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #ff6840;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#pics {
+	height: 404px;
+	width: 804px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: white;
+	border: 3px solid #818181;
+	padding: 4px 4px 4px 4px;
+
+	}
+
+#footer {
+	color: #818181;
+  font-size: 20px;
+  text-align: center;
+  font-family: "DejaVu Sans", arial, sans-serif;
+}
+
+#paragraph {
+	border: 3px solid #cccccc;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.4em;
+	background-color: white;
+}
+
+#paragraph ul {
+	font-size: 1.2em;
+}
+
+.emphasis {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 3em;
+	color: #03899c;
+}
+
+.referance {border: 3px solid #cccccc;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 2%;
+			padding-right: 2%;
+			padding-left: 2%;
+			font-family: "Linux Biolinum G", arial, sans-serif;
+			font-size: 1.4em;
+			background-color: white;
+		}
+
+.referance a {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	color: black;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#wss {
+	width: 800px;
+	height: 466px;
+	text-align: center;
+	border: 3px solid #818181;
+	background-color: white;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px 4px 4px 4px;
+	opacity: 0;
+	-webkit-transition:opacity 1.0s linear 0s;
+	transition:opacity 1.0s linear 0s;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin: 0 auto;
+    width:576px;
+    border-radius: 5px;
+    border-left: 1px solid #818181;
+    border-right: 1px solid #818181;
+    border-bottom: 1px solid #818181;
+    border-top: 1px solid #818181;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+    
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	 -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-family: "Linux Biolinum G", arial, sans-serif;
+
+}
+
+form span {
+ 	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:2em;
+	text-align: ;
+	padding-left: auto;
+	padding-right: auto;
+	width: 495px;
+}
+
+textarea {
+	height:213px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    background:url(Images/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    margin-left: auto;
+    margin-right: auto
+    text-align: center;
+
+  	
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+.Message {
+
+  	
+	font-size: 3em;
+	color: #818181;
+	border: 3px 3px 3px 3px solid #818181;
+	border-radius: 5px;
+	background-color: #ccff99;
+	text-align: center;
+	position: fixed;
+  	top: 10%;
+  	left: 50%;
+  	width: 462px;
+  	margin-right: auto;
+  	margin-left: auto;
+	
+}
+
+label {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+html {
+    overflow-y: scroll;
+}
+
+#background {
+	background-color: #818181;
+	background-position: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#wrapper {
+
+	border: 3px solid #cccccc;
+	margin-right: 05%;
+	margin-left: 05%;
+	margin-top: 01%;
+	background-image: url(Images/halftone.png);
+	background-repeat: repeat;
+	background-position: center top;
+	box-shadow: -4px 0px 8px #000000,
+				6px 0px 10px #000000;
+}
+
+h1 { 
+
+  color: teal;
+  font-family: "Linux Biolinum G", arial, sans-serif;
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: -.3em;
+  padding-left: 1em;
+  text-align: left;
+  background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+
+}
+ 
+h1 span {
+  color: #818181;
+  font-size: .6em;
+}
+
+#slogan {
+	padding-bottom: 1em;
+	padding-left: 3em;
+	font-size: 1.2em;
+	font-family: "dejaVu Sans", arial, sans-serif;
+	font-style: italic;
+	background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+}
+
+h2 {
+  color: #818181;
+  font-size: 20px;
+  text-align: right;
+  font-family: "DejaVu Sans", arial, sans-serif;
+  padding: 10px 10px 10px 10px;
+  margin-top: -1em;
+  border: 1px solid;
+  background-color: white;
+}
+
+#navbar {
+		text-align: center;
+		  border-left: 1px solid #818181;
+		  border-right:  1px solid #818181;
+		  border-bottom: 1px solid #818181;
+		  margin-top: -1em;
+		  padding-top: .5em;
+}
+
+nav li{
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	display: inline;
+	list-style-type: none;
+	padding-right: 100px;
+	text-align: center;
+}
+
+#navbar a:link {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:visited {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:active {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+	}
+
+#navbar a:hover {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #ff6840;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#pics {
+	height: 404px;
+	width: 804px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: white;
+	border: 3px solid #818181;
+	padding: 4px 4px 4px 4px;
+
+	}
+
+#footer {
+	color: #818181;
+  font-size: 20px;
+  text-align: center;
+  font-family: "DejaVu Sans", arial, sans-serif;
+}
+
+#paragraph {
+	border: 3px solid #cccccc;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.4em;
+	background-color: white;
+}
+
+#paragraph ul {
+	font-size: 1.2em;
+}
+
+.emphasis {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 3em;
+	color: #03899c;
+}
+
+.referance {border: 3px solid #cccccc;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 2%;
+			padding-right: 2%;
+			padding-left: 2%;
+			font-family: "Linux Biolinum G", arial, sans-serif;
+			font-size: 1.4em;
+			background-color: white;
+		}
+
+.referance a {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	color: black;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#wss {
+	width: 800px;
+	height: 466px;
+	text-align: center;
+	border: 3px solid #818181;
+	background-color: white;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px 4px 4px 4px;
+	opacity: 0;
+	-webkit-transition:opacity 1.0s linear 0s;
+	transition:opacity 1.0s linear 0s;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin: 0 auto;
+    width:576px;
+    border-radius: 5px;
+    border-left: 1px solid #818181;
+    border-right: 1px solid #818181;
+    border-bottom: 1px solid #818181;
+    border-top: 1px solid #818181;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+    
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	 -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-family: "Linux Biolinum G", arial, sans-serif;
+
+}
+
+form span {
+ 	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:2em;
+	text-align: ;
+	padding-left: auto;
+	padding-right: auto;
+	width: 495px;
+}
+
+textarea {
+	height:213px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    background:url(Images/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    margin-left: auto;
+    margin-right: auto
+    text-align: center;
+
+  	
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+.Message {
+
+  	
+	font-size: 3em;
+	color: #818181;
+	border: 3px 3px 3px 3px solid white;
+	border-radius: 5px;
+	background-color: #ccff99;
+	text-align: center;
+	position: fixed;
+  	top: 50%;
+  	left: 65%;
+  	width: 462px;
+  	margin-right: auto;
+  	margin-left: auto;
+	
+}
+
+label {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+html {
+    overflow-y: scroll;
+}
+
+#background {
+	background-color: #818181;
+	background-position: center;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#wrapper {
+
+	border: 3px solid #cccccc;
+	margin-right: 05%;
+	margin-left: 05%;
+	margin-top: 01%;
+	background-image: url(Images/halftone.png);
+	background-repeat: repeat;
+	background-position: center top;
+	box-shadow: -4px 0px 8px #000000,
+				6px 0px 10px #000000;
+}
+
+h1 { 
+
+  color: teal;
+  font-family: "Linux Biolinum G", arial, sans-serif;
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: -.3em;
+  padding-left: 1em;
+  text-align: left;
+  background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+
+}
+ 
+h1 span {
+  color: #818181;
+  font-size: .6em;
+}
+
+#slogan {
+	padding-bottom: 1em;
+	padding-left: 3em;
+	font-size: 1.2em;
+	font-family: "dejaVu Sans", arial, sans-serif;
+	font-style: italic;
+	background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+}
+
+h2 {
+  color: #818181;
+  font-size: 20px;
+  text-align: right;
+  font-family: "DejaVu Sans", arial, sans-serif;
+  padding: 10px 10px 10px 10px;
+  margin-top: -1em;
+  border: 1px solid;
+  background-color: white;
+}
+
+#navbar {
+		text-align: center;
+		  border-left: 1px solid #818181;
+		  border-right:  1px solid #818181;
+		  border-bottom: 1px solid #818181;
+		  margin-top: -1em;
+		  padding-top: .5em;
+}
+
+nav li{
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	display: inline;
+	list-style-type: none;
+	padding-right: 100px;
+	text-align: center;
+}
+
+#navbar a:link {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:visited {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#navbar a:active {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #818181;
+	width: 1660px;
+	text-decoration: none;
+	}
+
+#navbar a:hover {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.5em;
+	color: #ff6840;
+	width: 1660px;
+	text-decoration: none;
+}
+
+#pics {
+	height: 404px;
+	width: 804px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: white;
+	border: 3px solid #818181;
+	padding: 4px 4px 4px 4px;
+
+	}
+
+#footer {
+	color: #818181;
+  font-size: 20px;
+  text-align: center;
+  font-family: "DejaVu Sans", arial, sans-serif;
+}
+
+#paragraph {
+	border: 3px solid #cccccc;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:1.4em;
+	background-color: white;
+}
+
+#paragraph ul {
+	font-size: 1.2em;
+}
+
+.emphasis {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 3em;
+	color: #03899c;
+}
+
+.referance {border: 3px solid #cccccc;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 2%;
+			padding-right: 2%;
+			padding-left: 2%;
+			font-family: "Linux Biolinum G", arial, sans-serif;
+			font-size: 1.4em;
+			background-color: white;
+		}
+
+.referance a {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	color: black;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#wss {
+	width: 800px;
+	height: 466px;
+	text-align: center;
+	border: 3px solid #818181;
+	background-color: white;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px 4px 4px 4px;
+	opacity: 0;
+	-webkit-transition:opacity 1.0s linear 0s;
+	transition:opacity 1.0s linear 0s;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin: 0 auto;
+    width:576px;
+    border-radius: 5px;
+    border-left: 1px solid #818181;
+    border-right: 1px solid #818181;
+    border-bottom: 1px solid #818181;
+    border-top: 1px solid #818181;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    background: rgb(197,222,234); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 59%, rgba(6,109,171,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(197,222,234,1)), color-stop(59%,rgba(138,187,215,1)), color-stop(100%,rgba(6,109,171,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 59%,rgba(6,109,171,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 */
+
+    
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+	 -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font-family: "Linux Biolinum G", arial, sans-serif;
+
+}
+
+form span {
+ 	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size:2em;
+	text-align: ;
+	padding-left: auto;
+	padding-right: auto;
+	width: 495px;
+}
+
+textarea {
+	height:213px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    background:url(Images/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    margin-left: auto;
+    margin-right: auto
+    text-align: center;
+
+  	
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+.Message {
+
+  	
+	font-size: 3em;
+	color: #818181;
+	border: 3px 3px 3px 3px solid white;
+	border-radius: 5px;
+	background-color: #ccff99;
+	text-align: center;
+	position: fixed;
+  	top: 50%;
+  	left: 65%;
+  	width: 462px;
+  	margin-right: auto;
+  	margin-left: auto;
+	
+}
+
+label {
+	font-family: "Linux Biolinum G", arial, sans-serif;
+	font-size: 20px;
+}
+}
+
+
+

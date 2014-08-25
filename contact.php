@@ -7,6 +7,7 @@
 </head>
 </head>
 <body>
+	<div id="background">
 	<div id="wrapper">
 		<h1>CLIMATE<br>CHANGERS <span>INC.</span>
 		</h1>  
@@ -29,6 +30,7 @@
 		</div>
 		 <section class="body">
     	<form method="post" action="contact.php">
+    		<span><em>Please send us a message!</em></span>
         
     <label>Name</label>
     <input name="name" placeholder="Type Here">
@@ -52,6 +54,8 @@
 				<p>&#169; Climate Changers, Inc. 2014</p>
 			</footer>
 		</div>
+	</div>
+	</div>
 	</html>
 
 <?php
